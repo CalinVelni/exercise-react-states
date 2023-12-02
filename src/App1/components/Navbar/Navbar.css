@@ -1,0 +1,34 @@
+nav {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+
+#logoAndName {
+    display: flex;
+    gap: .5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: auto;
+}
+
+#logoAndName figure {
+    align-self: center;
+    font-size: 1.3em;
+    color: var(--cstmYellow);
+}
+
+#logoAndName span {
+    color: var(--cstmYellow)
+}
+
+menu li {
+    padding: .7rem .7rem .5rem .7rem;
+    border: .15rem solid var(--cstmYellow);
+    border-radius: .5rem;
+}
+
+menu li:hover {
+    background-color: var(--cstmYellow);
+}
+

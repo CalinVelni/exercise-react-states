@@ -1,0 +1,9 @@
+header h2 {
+    padding: 1rem;
+    text-align: center;
+}
+
+header hr {
+    color: inherit;
+}
+

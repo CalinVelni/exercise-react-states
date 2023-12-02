@@ -1,0 +1,15 @@
+article h3,p{
+    padding: 1rem;
+}
+
+article h3 {
+    padding-bottom: 0;
+    text-align: center;
+    color: var(--cstmYellow);
+}
+
+article p {
+    text-align: justify;
+    text-indent: 2rem;
+    word-spacing: .2rem;
+}

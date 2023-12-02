@@ -1,0 +1,16 @@
+.day {
+    background-color: var(--cstmLight);
+    color: var(--cstmDark)
+}
+  
+.night {
+    background-color: var(--cstmDark);
+    color: var(--cstmLight);
+}
+
+hr {
+  border: 0;
+  border-top: .15rem solid;
+  color: var(--cstmYellow);
+  margin: 0 1rem;
+}
