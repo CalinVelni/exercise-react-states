@@ -1,0 +1,15 @@
+footer {
+    font-size: .9rem;
+    text-align: center;
+    padding: 1rem;
+    word-spacing: .2rem;
+    opacity: .5;
+}
+
+hr {
+    border: 0;
+    border-top: .15rem solid;
+    margin: 0 1rem;
+    color: inherit;
+    opacity: .5;
+  }

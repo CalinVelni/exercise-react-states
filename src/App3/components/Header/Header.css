@@ -5,19 +5,16 @@ header {
     padding: 1rem;
 }
 
-#slider {
-    display: flex;
-    gap: .5rem;
-    padding: .5rem 2rem;
-    width: 80vw;
-}
-
-#slider input {
-    width: 100%;
+input {
     text-align: center;
+    padding: .2rem .5rem;
     border-style: none;
     border-radius: .5rem;
-    width: 100%;
+    width: 40vw;
+}
+
+header p {
+    color: rgba(255, 0, 255, .7);
 }
 
 button {
@@ -28,6 +25,5 @@ button {
 }
 
 button:hover {
-    background-color: hsla(213deg, 100%, 50%, .7);
+    background-color: rgba(255, 0, 255, .5);
 }
-

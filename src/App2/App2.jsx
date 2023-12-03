@@ -3,7 +3,7 @@ import { useState } from "react";
 import Slider from "./components/Slider/Slider";
 import Footer from "./components/Footer/Footer";
 
-const App2 = () => {
+const App = () => {
 
     const [volume, setVolume] = useState(50);
 
@@ -30,4 +30,4 @@ const App2 = () => {
     </>)
 }
 
-export default App2
+export default App
