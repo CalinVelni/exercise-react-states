@@ -1,0 +1,18 @@
+header {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+#slider {
+    display: flex;
+    gap: .5rem;
+}
+
+#slider input {
+    width: 100%;
+}
+
+
+
