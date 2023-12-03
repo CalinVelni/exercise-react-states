@@ -6,7 +6,7 @@ import randomInt from 'random-int';
 
 const App = () => {
 
-    const [length, setLength] = useState(20);
+    const [length, setLength] = useState(0);
     
     const [password, setPassword] = useState('');
 
@@ -31,6 +31,7 @@ const App = () => {
             changeLength = {callBackChangeLength}
             psw = {password}
             pswGen = {callBackPswGen}
+            btnText = "Generate"
         />
         <Footer
             author = {"Calin"}

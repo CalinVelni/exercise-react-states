@@ -1,5 +1,6 @@
 import "./App2.css"
 import { useState } from "react";
+import { IoVolumeMute } from "react-icons/io5";
 import Slider from "./components/Slider/Slider";
 import Footer from "./components/Footer/Footer";
 
@@ -21,7 +22,7 @@ const App = () => {
             volume = {volume}
             changeVolume = {callBackChange}
             muteVolume={callBackMute}
-
+            btnIcon = {<IoVolumeMute/>}
         />
         <Footer
             author = {"Calin"}

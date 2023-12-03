@@ -1,6 +1,12 @@
 import "./Slider.css"
 
-export default function({title, volume, changeVolume, muteVolume}) {
+export default function({
+    title, 
+    volume, 
+    changeVolume, 
+    muteVolume, 
+    btnIcon
+}) {
 
     return (
         <header>
@@ -10,7 +16,7 @@ export default function({title, volume, changeVolume, muteVolume}) {
                     onChange={changeVolume}/>
                 <span>{volume}</span>                
             </div>
-            <button onClick={muteVolume}>Mute</button>
+            <button onClick={muteVolume}>{btnIcon}</button>
         </header>
     )
 }

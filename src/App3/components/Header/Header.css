@@ -5,6 +5,10 @@ header {
     padding: 1rem;
 }
 
+header p {
+    color: rgba(255, 0, 255, .7);
+}
+
 input {
     text-align: center;
     padding: .2rem .5rem;
@@ -13,9 +17,11 @@ input {
     width: 40vw;
 }
 
-header p {
-    color: rgba(255, 0, 255, .7);
+input:focus {
+    border-style: none;
+    outline: solid .15rem rgba(255, 0, 255, .5);
 }
+
 
 button {
     background-color: inherit;
