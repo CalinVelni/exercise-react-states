@@ -13,7 +13,7 @@ const App = () => {
     const UpOrLow = text => randomInt(1) ? text.toLowerCase() : text.toUpperCase(); 
 
     const callBackChangeLength = (e) => {
-        setLength(e.target.value);
+        setLength(e.target.valueAsNumber);
     }
 
     const callBackPswGen = () => {
